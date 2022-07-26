@@ -40,9 +40,9 @@ out.print( request.getLocalAddr()  );
 
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <span>${message}</span>
-            <input name="username" type="text" class="form-control" placeholder="Usernames"
+            <input name="username" type="text" class="form-control" placeholder="User"
                    autofocus="true"/>
-            <input name="password" type="password" class="form-control" placeholder="Passwords"/>
+            <input name="password" type="password" class="form-control" placeholder="Pass"/>
             <span>${error}</span>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
